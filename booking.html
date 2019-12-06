@@ -8,24 +8,53 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 
 <style>
-/* STYLE GOES HERE IF NEEDED */
 
+.jumbotron{
+ background-color: #fd7e14;
+}
 </style>
 
 </head>
 <body>
 
-  <h1>Book a Teacher</h1>
-  <p>User Experience Web Interface Design</p> 
+  <div class="jumbotron text-light text-center">
+  
+  <h1 class="display-4">Book a Teacher</h1>
+  <p class="lead">User Experience Web Interface Design</p> 
+  
+  </div>
   
   <nav>
-  <!-- NAVIGATION GOES HERE -->
+ 
+    <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Teachers</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="booking.html">Booking</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+  </li>
+</ul>
   
   </nav>
 
   <div class="container">
-  <!-- FORM GOES HERE -->
-
+  
+  <h5>Name</h5>
+  <form><input type="text" name="name" id="email"></form>
+  
+  <h5>Email</h5>
+  <form><input type="email" name="email" id="email"></form> 
+   
+  <h5>Phone</h5> 
+  <form><input type="tel" name="phone" id="phone"></form>
+  
+  <h5>Topics to discuss</h5>
+<textarea>Enter text</textarea>
+  
+  
   </div>
   
 <footer>
